@@ -9,4 +9,7 @@
 	<named-query name="product.getById">
 		<query>SELECT p FROM Product p WHERE p.id=?1</query>
 	</named-query>
+	<named-query name="product.deleteById">
+		<query>DELETE FROM Product p WHERE p.id=?1</query>
+	</named-query>
 </entity-mappings>
